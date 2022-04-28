@@ -20,10 +20,11 @@ npm install vue3-backtotop --save
 
 Import for global usage
 ```javascript
-import Vue from 'vue'
+import { createApp } from 'vue';
 import BackToTop from 'vue3-backtotop'
 
-Vue.use(BackToTop)
+const app = createApp(App);
+app.use(BackToTop)
 ...
 ```
 

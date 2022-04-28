@@ -1,7 +1,7 @@
 {
   "name": "vue3-back-to-top",
   "description": "A Back-to-top component for Vue 3, SSR support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -30,7 +30,8 @@
   },
   "files": [
     "dist/*",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
